@@ -14,9 +14,9 @@
                 <ul class="thm-breadcrumb list-unstyled">
                     <li><a href="{{ url('/') }}">Home</a></li>
                     <li><span>/</span></li>
-                    <li>Tamara Services</li>
+                    <li>Tamara Consulting Services</li>
                 </ul>
-                <h2>TAMARA SERVICES</h2>
+                <h2>TAMARA CONSULTING SERVICES</h2>
             </div>
         </div>
     </section><br><br>
@@ -71,7 +71,7 @@
                 <div class="col-xl-4 col-lg-4 wow fadeInUp animated" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
                     <div class="blog-one__single">
                         <div class="blog-one__img">
-                            <img src="{{ asset('assets/frontend/images/services/procurement.jpg') }}" alt="">
+                            <img src="{{ asset('assets/frontend/images/services/project.jpeg') }}" alt="">
                         </div>
                         <div class="blog-one__content">
                             <h3 class="blog-one__title"><a href="{{ url('project-service') }}">Project Management Support Services</a></h3>

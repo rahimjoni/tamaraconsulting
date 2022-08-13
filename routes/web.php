@@ -31,6 +31,7 @@ Route::group(['namespace' => 'Frontend'], function() {
     Route::get('/claims-service','PageController@claimsService');
     Route::get('/project-service','PageController@projectService');
     Route::get('/working','PageController@working');
+    Route::post('/contact-message', 'PageController@contactMessage');
 });
 
 Route::get('/clear-cache', function() {

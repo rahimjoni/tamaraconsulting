@@ -4,31 +4,7 @@
 
 @push('css')
     <style>
-        @keyframes scroll {
-            0% {
-                transform: translateX(0);
-            }
-            100% {
-                transform: translateX(calc(-250px * 7));
-            }
-        }
-        .sliderTest {
-            height: 100px;
-            margin: auto;
-            overflow: hidden;
-            position: relative;
-            width: auto;
-        }
-        .sliderTest .slide-track {
-            animation: scroll 40s linear infinite;
-            display: flex;
-            width: calc(250px * 14);
-        }
-        .sliderTest .slide {
-            height: 100px;
-            width: 250px;
-            margin-top: 25px;
-        }
+
     </style>
 @endpush
 
@@ -146,11 +122,11 @@
         <div class="container">
             <div class="cta-one__inner">
                 <div class="cta-one__left">
-                    <p class="cta-one__sub-title">Need our services?</p>
-                    <h3 class="cta-one__title">WE OPTIMIZE YOUR PROCUREMENT PROCESS</h3>
+                    <p class="cta-one__sub-title">Need our help?</p>
+                    <h3 class="cta-one__title">WE HELP COMPANY SOLVING THEIR PROBLEM SMARTLY</h3>
                 </div>
                 <div class="cta-one__btn-box">
-                    <a href=""{{ url('contact-us') }} class="thm-btn cta-one__btn"> <i class="fa fa-arrow-right"></i> REQUEST ADVICE</a>
+                    <a href=""{{ url('contact-us') }} class="thm-btn cta-one__btn"> <i class="fa fa-arrow-right"></i> Reach Us</a>
                 </div>
             </div>
         </div>
